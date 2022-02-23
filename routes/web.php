@@ -17,6 +17,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/', function () {
+    echo "Selamat Datang";
+});
+
 Route::get('/about', function () {
     echo "NIM   : 2041720158 ";
     echo "Nama  : Alda Nelva Putri Sumita ";
